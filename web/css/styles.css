@@ -1,0 +1,16 @@
+.form{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+}
+
+.f{
+    display:inline-block;
+    margin: 20px auto 20px 10px;
+}
+
+.button{
+    width: 150px;
+    margin-top: 10px;
+}
+
