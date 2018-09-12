@@ -1,3 +1,7 @@
+body{
+    font-family: "Arial";
+}
+
 .form{
     border: 1px solid black;
     width: 250px;
@@ -14,3 +18,27 @@
     margin-top: 10px;
 }
 
+table{
+    width: 500px;
+    margin:2% 0 10px 1%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+th {
+    background-color: #aaa;
+    border: 1px solid black;
+    text-align: left;
+}
+
+td:first-child, td:first-child {
+    width: 100px;
+}
+
+caption{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
