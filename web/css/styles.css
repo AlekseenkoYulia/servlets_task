@@ -1,0 +1,45 @@
+body {
+    font-family: "Arial";
+}
+
+.form {
+    border: 1px solid black;
+    width: 200px;
+    height: 170px;
+}
+
+.f {
+    display: inline-block;
+    margin: 10px auto 10px 10px;
+}
+
+.button {
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+table {
+    width: 500px;
+    margin: 2px 0 10px 1px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+th {
+    background-color: #aaa;
+    border: 1px solid black;
+    text-align: left;
+}
+
+td:first-child, td:first-child {
+    width: 200px;
+}
+
+caption {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
