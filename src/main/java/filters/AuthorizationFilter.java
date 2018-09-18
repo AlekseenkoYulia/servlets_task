@@ -18,12 +18,12 @@ public class AuthorizationFilter implements Filter {
             if (authorized) {
                 chain.doFilter(request, response);
             } else {
-                HttpServletResponse httpServletResponse = (HttpServletResponse)response;
-                httpServletResponse.sendRedirect("/html/login.html");
+                HttpServletResponse httpServletResponse = (HttpServletResponse) response;
+                httpServletResponse.sendRedirect("/view/login.html");
             }
         } else {
             session.setAttribute("authorized", "false");
-            request.getRequestDispatcher("/html/login.html").forward(request, response);
+            request.getRequestDispatcher("/view/login.html").forward(request, response);
         }
     }
 

@@ -9,7 +9,6 @@ import java.io.IOException;
 public class TableServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        request.getRequestDispatcher("/html/table.html").forward(request, response);
+        request.getRequestDispatcher("/view/table.jsp").forward(request, response);
     }
-
 }
